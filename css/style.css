@@ -1,0 +1,92 @@
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#wrapper {
+    margin-top: 5%;
+}
+
+#field {
+    height: 30px;
+    width: 35%;
+    float: left;
+    margin-right: 10px;
+    padding-left: 1%;
+}
+
+#button, #clean {
+    cursor: pointer;
+    height: 36px;
+    background-color: blue;
+    width: 20%;
+    color: white;
+    font-size: 1rem;
+    border-radius: 19px;
+}
+
+#button:hover {
+    background-color: deepskyblue;
+}
+
+#get:focus, #get:active, #get:visited {
+    border: none;
+    outline: none;
+}
+
+select {
+    height: 35px;
+    margin-right: 5%;
+}
+
+option:nth-child(1) {
+    color: red;
+}
+
+li {
+    list-style-type: none;
+    background-color: aquamarine;
+    padding: 1%;
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+ul {
+    padding-left: 0;
+}
+
+#list-todo span {
+    text-transform: uppercase;
+    color: red;
+    background-color: aquamarine;
+    display: block;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+#list-todo select {
+    padding-left: 1%;
+}
+
+.border {
+    border: 2px solid red;
+}
+
+.reaction-1 {
+    width: 13%;
+    position: fixed;
+    color: red;
+    top: 5%;
+    left: 11%;
+    margin-top: 1%;
+}
+
+.reaction-2 {
+    position: fixed;
+    width: 20%;
+    overflow: hidden;
+    color: red;
+    top: 10%;
+    margin-top: -16px;
+    left: 38%;
+}
